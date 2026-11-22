@@ -1,29 +1,44 @@
-# Week 01: Requirements and capacity estimation
+# Week 01 — System Design Foundations
 
-## Goal
-Functional/non-functional requirements; latency, throughput, availability; read/write ratios; back-of-the-envelope estimates.
+**Focus:** Requirements gathering, capacity estimation, and core URL shortener design fundamentals.
 
-## Tasks
-- [ ] Study the topics and take notes in your own words.
-- [ ] Follow the ordered references below; focus only on relevant sections.
-- [ ] Complete this week's practical task: Write requirements and estimate daily active users, requests/second, storage, and bandwidth for a URL shortener.
-- [ ] Complete the assessment without looking at a prepared solution.
-- [ ] Commit your notes, diagrams, code, or design document.
+## Learning objectives
+- [ ] Distinguish functional and non-functional requirements.
+- [ ] Define MVP scope and prioritize features.
+- [ ] Explain latency vs throughput.
+- [ ] Estimate daily requests, average QPS, and peak QPS.
+- [ ] Estimate storage growth.
+- [ ] Define basic APIs and data model.
+- [ ] Combine decisions into a first URL shortener design.
 
-## Ordered references
-Free System Design foundations; System Design Primer — performance and scalability.
+## Lessons
+| Lesson | Topic | Status | Notes |
+|---|---|---|---|
+| 01 | [Requirements Gathering](lessons/01-requirements-gathering.md) | Studied | MVP, FR/NFR, prioritization |
+| 02 | [Capacity Estimation — QPS](lessons/02-capacity-estimation-qps.md) | Studied | DAU, requests/day, average & peak QPS |
+| 03 | Storage Estimation | Upcoming | Data size and growth |
+| 04 | API Design | Upcoming | Endpoints and contracts |
+| 05 | Database Basics & Schema | Upcoming | Mapping data and indexes |
+| 06 | Short Code Generation | Upcoming | Uniqueness and encoding |
+| 07 | URL Shortener Architecture | Upcoming | Initial architecture |
+| 08 | Week 01 Assessment & Review | Upcoming | Consolidation |
 
-## Assessment
-Explain the difference between throughput and latency. Estimate peak QPS from daily traffic. Name five non-functional requirements.
+## Assessments
+- [Lesson 01 assessment](assessments/lesson-01-assessment.md)
+- [Lesson 02 assessment](assessments/lesson-02-assessment.md)
 
-## Deliverable
-Create a one-page requirements and capacity note.
+## Weekly deliverable
+A URL shortener design document containing:
+- Requirements and scope
+- Capacity estimates
+- API definitions
+- Database schema
+- Short-code generation approach
+- Architecture diagram
+- Failure scenarios and trade-offs
 
-## Reflection
-- What can I explain confidently?
-- What is still unclear?
-- What trade-off did I learn to reason about?
-- What should I revise next week?
-
-## Completion criteria
-Do not mark this week complete until the assessment and deliverable are saved in the repository.
+## Weekly review
+- What can I explain without notes?
+- What remains unclear?
+- Which assumption should I revisit?
+- What did I commit as evidence of learning?
