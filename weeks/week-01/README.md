@@ -16,7 +16,7 @@
 |---|---|---|---|
 | 01 | [Requirements Gathering](lessons/01-requirements-gathering.md) | Studied | MVP, FR/NFR, prioritization |
 | 02 | [Capacity Estimation — QPS](lessons/02-capacity-estimation-qps.md) | Studied | DAU, requests/day, average & peak QPS |
-| 03 | Storage Estimation | Upcoming | Data size and growth |
+| 03 | [Storage Estimation](lessons/03-storage-estimation.md) | Studied | Record size assumptions, daily and annual growth |
 | 04 | API Design | Upcoming | Endpoints and contracts |
 | 05 | Database Basics & Schema | Upcoming | Mapping data and indexes |
 | 06 | Short Code Generation | Upcoming | Uniqueness and encoding |
@@ -26,6 +26,7 @@
 ## Assessments
 - [Lesson 01 assessment](assessments/lesson-01-assessment.md)
 - [Lesson 02 assessment](assessments/lesson-02-assessment.md)
+- [Lesson 03 assessment](assessments/lesson-03-assessment.md)
 
 ## Weekly deliverable
 A URL shortener design document containing:
