@@ -2,6 +2,10 @@
 
 A 24-week, completely free learning workspace for an intermediate software engineer preparing for product-company interviews, with a longer-term goal of growing toward senior engineer / software architect responsibilities.
 
+## Learning protocol
+
+See [`LEARNING-PROTOCOL.md`](LEARNING-PROTOCOL.md) for our persistent teaching approach, assessments, weekly feedback scorecard, readiness decisions, and chat-window continuity. Read it at the start of a new chat to resume the learning journey consistently.
+
 ## How to use this repository
 
 1. Read `ROADMAP.md` and `resources/LEARNING-ORDER.md`.
