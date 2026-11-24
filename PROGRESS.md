@@ -15,7 +15,7 @@ Update this file once a week. Use `[x]` when a deliverable is genuinely complete
 
 | Week | Topic | Status | Evidence / commit |
 |---:|---|---|---|
-| 01 | Requirements and capacity estimation | Not started | |
+| 01 | Requirements and capacity estimation | In progress | [Week 01 lessons](weeks/week-01/README.md) — Lessons 01–04 studied; next: Lesson 05 |
 | 02 | Load balancing, gateways, CDN | Not started | |
 | 03 | Data stores and database scaling | Not started | |
 | 04 | Caching and rate limiting | Not started | |
